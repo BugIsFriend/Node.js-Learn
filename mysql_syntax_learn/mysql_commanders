@@ -1,0 +1,23 @@
+1. 显示所有数据库：
+				SHOW DATABASES db_name
+2. 使用某个数据库：
+				USE  database_name 
+3. 创建数据库：  
+				CREATE DATABASE database_name
+4.显示当前数据库的表：
+				SHOW TABLES
+5.显示某个表的结构：
+				DESCRIBE table_name
+
+
+
+-- mysql syntax 
+ 
+ 1. DATE/DATETIME/TIMESTAMP/TIME:
+ 		 CURDATE() : 获取当前时间： “2010-09-01”  
+ 		 TIMESTAMPDIFF(YEAR/MONTH, date_1, data_2 )   :以年为单位计算date_1和data_2时间差
+ 		 			TIMESTAMPDIFF()
+ 	各种时间类型的范围:
+ 		DATE:  1000-01-10       		 9999-12-31
+ 		DATETIME:  1000-01-10  00:00:00      9999-12-31 23:59:59
+ 		TIME
