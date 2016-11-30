@@ -101,7 +101,7 @@ SubObjC.prototype = new SuperObjC()   // 共享超类原型链上的属性
 
 
 /*
-	原型式继承：
+	寄生式继承：
 		要求：必须有一个对象作为另一个对象的基础
 		缺点：超类是引用类型，还是会被子类实例共享
 */
@@ -140,12 +140,6 @@ function SubType_PC(){
 }
 
 inheritPrototype( SubType_PC, SuperType_PC )
-
-
-
-
-
-
 
 
 
